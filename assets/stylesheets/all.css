@@ -1,4 +1,4 @@
-/* line 2, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_scaffold.scss */
+/* line 2, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_scaffold.scss */
 *,
 *:before,
 *:after {
@@ -8,14 +8,14 @@
  * Tooltips!
  */
 /* Base styles for the element that has a tooltip */
-/* line 10, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 10, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 [data-tooltip],
 .tooltip {
   position: relative;
   cursor: pointer; }
 
 /* Base styles for the entire tooltip */
-/* line 17, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 17, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 [data-tooltip]:before,
 [data-tooltip]:after,
 .tooltip:before,
@@ -34,7 +34,7 @@
   pointer-events: none; }
 
 /* Show the entire tooltip on hover and focus */
-/* line 45, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 45, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after,
 [data-tooltip]:focus:before,
@@ -49,7 +49,7 @@
   opacity: 1; }
 
 /* Base styles for the tooltip's directional arrow */
-/* line 60, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 60, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip:before,
 [data-tooltip]:before {
   z-index: 1001;
@@ -58,7 +58,7 @@
   content: ""; }
 
 /* Base styles for the tooltip's content area */
-/* line 69, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 69, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip:after,
 [data-tooltip]:after {
   white-space: nowrap;
@@ -74,7 +74,7 @@
 
 /* Directions */
 /* Top (default) */
-/* line 86, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 86, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 [data-tooltip]:before,
 [data-tooltip]:after,
 .tooltip:before,
@@ -84,7 +84,7 @@
   bottom: 100%;
   left: 50%; }
 
-/* line 96, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 96, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 [data-tooltip]:before,
 .tooltip:before,
 .tooltip-top:before {
@@ -94,13 +94,13 @@
   border-top-color: rgba(51, 51, 51, 0.9); }
 
 /* Horizontally align top/bottom tooltips */
-/* line 106, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 106, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 [data-tooltip]:after,
 .tooltip:after,
 .tooltip-top:after {
   margin-left: -80px; }
 
-/* line 112, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 112, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after,
 [data-tooltip]:focus:before,
@@ -118,14 +118,14 @@
   transform: translateY(-12px); }
 
 /* Left */
-/* line 130, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 130, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-left:before,
 .tooltip-left:after {
   right: 100%;
   bottom: 50%;
   left: auto; }
 
-/* line 137, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 137, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-left:before {
   margin-left: 0;
   margin-right: -12px;
@@ -134,7 +134,7 @@
   border-left-color: #000;
   border-left-color: rgba(51, 51, 51, 0.9); }
 
-/* line 146, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 146, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-left:hover:before,
 .tooltip-left:hover:after,
 .tooltip-left:focus:before,
@@ -144,14 +144,14 @@
   transform: translateX(-12px); }
 
 /* Bottom */
-/* line 156, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 156, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-bottom:before,
 .tooltip-bottom:after {
   top: 100%;
   bottom: auto;
   left: 50%; }
 
-/* line 163, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 163, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-bottom:before {
   margin-top: -12px;
   margin-bottom: 0;
@@ -159,7 +159,7 @@
   border-bottom-color: #000;
   border-bottom-color: rgba(51, 51, 51, 0.9); }
 
-/* line 171, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 171, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-bottom:hover:before,
 .tooltip-bottom:hover:after,
 .tooltip-bottom:focus:before,
@@ -169,13 +169,13 @@
   transform: translateY(12px); }
 
 /* Right */
-/* line 181, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 181, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-right:before,
 .tooltip-right:after {
   bottom: 50%;
   left: 100%; }
 
-/* line 187, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 187, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-right:before {
   margin-bottom: 0;
   margin-left: -12px;
@@ -183,7 +183,7 @@
   border-right-color: #000;
   border-right-color: rgba(51, 51, 51, 0.9); }
 
-/* line 195, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 195, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-right:hover:before,
 .tooltip-right:hover:after,
 .tooltip-right:focus:before,
@@ -193,7 +193,7 @@
   transform: translateX(12px); }
 
 /* Move directional arrows down a bit for left/right tooltips */
-/* line 205, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 205, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-left:before,
 .tooltip-right:before {
   top: 50%;
@@ -201,13 +201,13 @@
   bottom: auto; }
 
 /* Vertically center tooltip content for left/right tooltips */
-/* line 213, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
+/* line 213, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_tooltips.scss */
 .tooltip-left:after,
 .tooltip-right:after {
   margin-left: 0;
   margin-bottom: -16px; }
 
-/* line 4, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
+/* line 4, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
 #header {
   display: block;
   z-index: 500;
@@ -227,17 +227,17 @@
   background: rgba(255, 255, 255, 0.97);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.15); }
 
-/* line 24, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
+/* line 24, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
 article {
   margin-top: 140px; }
 
-/* line 29, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
+/* line 29, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
 .logo {
   display: inline-block; }
-/* line 32, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
+/* line 32, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
 .logo img {
   margin: 22px 14px 22px 20px; }
-/* line 35, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
+/* line 35, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
 .logo span {
   vertical-align: top;
   border-left: 1px solid rgba(0, 0, 0, 0.15);
@@ -245,7 +245,7 @@ article {
   margin: 20px 0;
   display: inline-block; }
 
-/* line 45, /Users/michelsonmartinez/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
+/* line 45, /Users/michelson/Documents/rubyonrails/medium-editor/source/assets/stylesheets/_layout.scss */
 .github {
   float: right;
   line-height: 0;
