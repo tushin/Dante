@@ -1,5 +1,6 @@
 
 #TODO:
+  + hi
 
   + GENERALS
     + FF in case markup breaks (like linebreak with br or unwraped text when typing) just rewrap from current range.
